@@ -1,0 +1,92 @@
+{
+  "ノーマル": {
+    "double_damage_from": ["かくとう"],
+    "half_damage_from": [],
+    "no_damage_from": ["ゴースト"]
+  },
+  "ほのお": {
+    "double_damage_from": ["みず", "じめん", "いわ"],
+    "half_damage_from": ["ほのお", "くさ", "こおり", "むし", "はがね", "フェアリー"],
+    "no_damage_from": []
+  },
+  "みず": {
+    "double_damage_from": ["くさ", "でんき"],
+    "half_damage_from": ["ほのお", "みず", "こおり", "はがね"],
+    "no_damage_from": []
+  },
+  "くさ": {
+    "double_damage_from": ["ほのお", "こおり", "どく", "ひこう", "むし"],
+    "half_damage_from": ["みず", "くさ", "でんき", "じめん"],
+    "no_damage_from": []
+  },
+  "でんき": {
+    "double_damage_from": ["じめん"],
+    "half_damage_from": ["でんき", "ひこう", "はがね"],
+    "no_damage_from": []
+  },
+  "こおり": {
+    "double_damage_from": ["ほのお", "かくとう", "いわ", "はがね"],
+    "half_damage_from": ["こおり"],
+    "no_damage_from": []
+  },
+  "かくとう": {
+    "double_damage_from": ["ひこう", "エスパー", "フェアリー"],
+    "half_damage_from": ["むし", "いわ", "あく"],
+    "no_damage_from": []
+  },
+  "どく": {
+    "double_damage_from": ["じめん", "エスパー"],
+    "half_damage_from": ["くさ", "かくとう", "どく", "むし", "フェアリー"],
+    "no_damage_from": []
+  },
+  "じめん": {
+    "double_damage_from": ["みず", "くさ", "こおり"],
+    "half_damage_from": ["どく", "いわ"],
+    "no_damage_from": ["でんき"]
+  },
+  "ひこう": {
+    "double_damage_from": ["でんき", "こおり", "いわ"],
+    "half_damage_from": ["くさ", "かくとう", "むし"],
+    "no_damage_from": ["じめん"]
+  },
+  "エスパー": {
+    "double_damage_from": ["むし", "ゴースト", "あく"],
+    "half_damage_from": ["かくとう", "エスパー"],
+    "no_damage_from": []
+  },
+  "むし": {
+    "double_damage_from": ["ほのお", "ひこう", "いわ"],
+    "half_damage_from": ["くさ", "かくとう", "じめん"],
+    "no_damage_from": []
+  },
+  "いわ": {
+    "double_damage_from": ["みず", "くさ", "かくとう", "じめん", "はがね"],
+    "half_damage_from": ["ノーマル", "ほのお", "どく", "ひこう"],
+    "no_damage_from": []
+  },
+  "ゴースト": {
+    "double_damage_from": ["ゴースト", "あく"],
+    "half_damage_from": ["どく", "むし"],
+    "no_damage_from": ["ノーマル", "かくとう"]
+  },
+  "ドラゴン": {
+    "double_damage_from": ["こおり", "ドラゴン", "フェアリー"],
+    "half_damage_from": ["ほのお", "みず", "くさ", "でんき"],
+    "no_damage_from": []
+  },
+  "あく": {
+    "double_damage_from": ["かくとう", "むし", "フェアリー"],
+    "half_damage_from": ["ゴースト", "あく"],
+    "no_damage_from": ["エスパー"]
+  },
+  "はがね": {
+    "double_damage_from": ["ほのお", "かくとう", "じめん"],
+    "half_damage_from": ["ノーマル", "くさ", "こおり", "ひこう", "エスパー", "むし", "いわ", "ドラゴン", "はがね", "フェアリー"],
+    "no_damage_from": ["どく"]
+  },
+  "フェアリー": {
+    "double_damage_from": ["どく", "はがね"],
+    "half_damage_from": ["かくとう", "むし", "あく"],
+    "no_damage_from": ["ドラゴン"]
+  }
+}
